@@ -281,7 +281,7 @@ spoof_acpi() {
 
 
 spoof_smbios() {
-  $ROOT_ESC python3 "$ROOT_DIR/resources/scripts/Linux/SMBIOS.py" -o "$OUT_DIR/firmware"
+  $ROOT_ESC python3 "$ROOT_DIR/resources/scripts/Linux/SMBIOS.py" -o "$OUT_DIR/firmware/smbios.bin"
 }
 
 
